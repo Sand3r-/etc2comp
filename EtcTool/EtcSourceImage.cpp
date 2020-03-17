@@ -23,6 +23,7 @@
 #include "Etc.h"
 
 #if USE_STB_IMAGE_LOAD
+#define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 #endif
 
